@@ -1,14 +1,859 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
-    <meta author="pacifiquem@github.com">
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pacifiquem - Welcome to my official portfolio</title>
+  <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9LFWTJ3CN3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9LFWTJ3CN3');
+    </script>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>M.pac - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
+    <meta name="keywords" content="Pacifique M, pacifiquem, M.pac,resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="pacifiquem@github.com" />
+    <link rel="shortcut icon" href="logo.ico">
+
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <!-- /Animated Background -->
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div class="page">
+      <div class="page-content">
+
+          <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+              <div class="header-photo">
+                <img src="img/main_photo.png" alt="Pacifique Murangwa">
+              </div>
+              <div class="header-titles">
+                <h2>Pacifique Murangwa</h2>
+                <h4>Full-Stack Developer</h4>
+              </div>
+            </div>
+
+            <ul class="main-menu">
+              <li class="active">
+                <a href="#home" class="nav-anim">
+                  <span class="menu-icon lnr lnr-home"></span>
+                  <span class="link-text">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user"></span>
+                  <span class="link-text">About Me</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume" class="nav-anim">
+                  <span class="menu-icon lnr lnr-graduation-hat"></span>
+                  <span class="link-text">Resume</span>
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="nav-anim">
+                  <span class="menu-icon lnr lnr-briefcase"></span>
+                  <span class="link-text">Portfolio</span>
+                </a>
+              </li>
+           
+              <li>
+                <a href="#contact" class="nav-anim">
+                  <span class="menu-icon lnr lnr-envelope"></span>
+                  <span class="link-text">Contact</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/pacifique-murangwa-10394722b/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://dev.to/pacifiquem" target="_blank"><i class="fab fa-dev"></i></a></li>
+                <li><a href="https://twitter.com/PacifiqueMuran1" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/pacifiquem" target="_blank"><i class="fab fa-github"></i></a></li>                
+              </ul>
+            </div>
+
+            <div class="header-buttons">
+              <a href="https://drive.google.com/file/d/17yR19cpUeU4xszOeh1kiOq-hb2MvvZie/view?usp=sharing" 
+                download="MurangwaPacifiqueCV.pdf"
+                  target="_blank" class="btn btn-primary">Download CV</a>
+            </div>
+
+            <div class="copyrights">© 2022 All rights reserved.</div>
+          </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+          <!-- Arrows Nav -->
+          <div class="lmpixels-arrows-nav">
+            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+          </div>
+          <!-- End Arrows Nav -->
+
+          <div class="content-area">
+            <div class="animated-sections">
+              <!-- Home Subpage -->
+              <section data-id="home" class="animated-section start-page">
+                <div class="section-content vcentered">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="title-block">
+                          <h2>Pacifique Murangwa</h2>
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <div class="sp-subtitle">Backend-developer</div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="sp-subtitle">Frontend-developer</div>
+                            </div>                       
+                          </div>
+                          <p class="mt-3">Remote Full-stack web developer ready for adventure</p>
+                        </div>                       
+                        <div class="header-buttons">                        
+                          <a href="#portfolio"  target="" class="btn btn-primary"><span class="menu-icon lnr lnr-briefcase"></span> Portfolio</a>
+                        </div>
+                      </div>                      
+                    </div>  
+                </div>
+              </section>
+              <!-- End of Home Subpage -->
+
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>About <span>Me</span></h2>
+                  </div>
+
+                  <!-- Personal Information -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                      <p>I'm an enthusiastic and detail-oriented Front-end Software Engineer seeking a position with Company to use my skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5">
+                      <div class="info-list">
+                        <ul>
+                          <li>
+                            <span class="title">Residence</span>
+                            <span class="value">Rwanda</span>
+                          </li>
+                          <li>
+                            <span class="title">E-mail</span>
+                            <span class="value">pacifiquemurangwa001@gmail.com</span>
+                          </li>
+                          <li>
+                            <span class="title">Phone</span>
+                            <span class="value">+250791761286</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Personal Information -->
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Services -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>What <span>I Do</span></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-store"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Frontend</h4>
+                              <p>HTML5, JavaScript, React, Vue.js, Redux, jQuery, CSS3, Bootstrap, Tailwind</p>
+                            </div>
+                          </div>
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-laptop-phone"></i>
+                            </div><div class="ci-text">
+                              <h4>Web Design</h4>
+                              <p>UI/UX Figma</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="col-inner">
+                        <div class="info-list-w-icon">
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-pencil"></i>
+                            </div>
+                            <div class="ci-text">
+                              <h4>Back-End & Databases</h4>
+                              <p>Express.js, Nest.js, Spring Boot, MySQL, MongoDB, Postgres SQL, MariaDB</p>
+                            </div>
+                          </div>
+                          <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                              <i class="lnr lnr-flag"></i>
+                            </div><div class="ci-text">
+                              <h4>Professional</h4>
+                              <p>Remote Pair-Programming, Teamwork, Mentoring</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Services -->
+                </div>
+              </section>
+              <!-- End of About Me Subpage -->
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="section-content">  
+                  <div class="page-title">
+                    <h2>Resume</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+
+                      
+                      <div class="block-title">
+                        <h3>Experience</h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2021 - 2022</h5>
+                            <span class="item-company">FS Simplifier</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">FullStack Developer</h4>
+                            <p>Modified existing software to correct errors, adapt to new features and upgrade interfaces to improve perfomance</p>
+                            <p>Developed program logic for new applications based on fresh coding or revamped logic from existing applications.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2020-2021</h5>
+                            <span class="item-company">BibleHub</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Front-end Developer</h4>
+                            <p>Build a web application that has the functionality to enable chatting and post based discussions about Bible .</p>
+                            <p>Gathered And evaluated the technical requirements for each site to produce better codes</p>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2019 - 2020</h5>
+                            <span class="item-company">Sportsway</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Front-end Developer</h4>
+                            <p>Buid And Implementing Best Us/UX</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="white-space-50"></div>
+
+                      <div class="block-title">
+                        <h3>Education</h3>
+                      </div>
+                      
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2021 - 2024</h5>
+                            <span class="item-company">Rwanda Coding Academy</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">ٍSoftware Engineering & Embeded Systems</h4>
+                            <p>I've been learning to code in various tech stack since 2021 .</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2018 - 2021</h5>
+                            <span class="item-company">ES.Mutunda</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">O' level</h4>
+                            <p>Spent more than 3 years learning basic Science Concepts in Mathematics, Physics, Chemistry, Biology ... </p>
+                            <p>Developed skills in Problem Solving, Science Concepts .</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <!-- Skills & Certificates -->
+                    <div class="col-xs-12 col-sm-5">
+                      <!-- Design Skills -->
+                      <div class="block-title">
+                        <h3>Design <span>Skills</span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 1 -->
+                        <div class="skill clearfix">
+                          <h4>UI/UX</h4>
+                          <div class="skill-value">60%</div>
+                        </div>
+                        <div class="skill-container skill-1">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 1 -->
+                     
+                      </div>
+                      <!-- End of Design Skills -->
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Coding Skills -->
+                      <div class="block-title">
+                        <h3>Coding <span>Skills</span></h3>
+                      </div>
+
+                      <div class="skills-info skills-second-style">
+
+                        <!-- Skill 7 -->
+                          <div class="skill clearfix">
+                            <h4>HTML/CSS</h4>
+                            <div class="skill-value">100%</div>
+                            </div>
+                            <div class="skill-container skill-7">
+                              <div class="skill-percentage"></div>
+                            </div>
+                        <!-- End of Skill 7 -->
+                        <!-- Skill 5 -->
+                        <div class="skill clearfix">
+                          <h4>JavaScript</h4>
+                          <div class="skill-value">97%</div>
+                        </div>
+                        <div class="skill-container skill-5">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 5 -->
+
+                        <!-- Skill 5 -->
+                        <div class="skill clearfix">
+                          <h4>React</h4>
+                          <div class="skill-value">95%</div>
+                        </div>
+                        <div class="skill-container skill-5">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 5 -->
+
+                        <!-- Skill 5 -->
+                        <div class="skill clearfix">
+                          <h4>Redux</h4>
+                          <div class="skill-value">90%</div>
+                        </div>
+                        <div class="skill-container skill-5">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 5 -->
+ 
+                        <!-- Skill 7 -->
+                        <div class="skill clearfix">
+                          <h4>Vue.js</h4>
+                          <div class="skill-value">90%</div>
+                        </div>
+                        <div class="skill-container skill-7">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 7 -->
+                        
+                        <!-- Skill 8 -->
+                        <div class="skill clearfix">
+                          <h4>Bootstrap</h4>
+                          <div class="skill-value">90%</div>
+                        </div>
+                        <div class="skill-container skill-8">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 8 -->
+
+                        <!-- Skill 9 -->
+                        <div class="skill clearfix">
+                          <h4>Tailwind</h4>
+                          <div class="skill-value">90%</div>
+                        </div>
+                        <div class="skill-container skill-9">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 9 -->
+
+                        <!-- Skill 9 -->
+                        <div class="skill clearfix">
+                          <h4>Node.js</h4>
+                          <div class="skill-value">85%</div>
+                        </div>
+                        <div class="skill-container skill-9">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 9 -->
+
+                        <!-- Skill 9 -->
+                        <div class="skill clearfix">
+                          <h4>Nest.js</h4>
+                          <div class="skill-value">80%</div>
+                        </div>
+                        <div class="skill-container skill-9">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 9 -->
+
+                        <!-- Skill 9 -->
+                        <div class="skill clearfix">
+                          <h4>Spring Boot</h4>
+                          <div class="skill-value">70%</div>
+                        </div>
+                        <div class="skill-container skill-9">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 9 -->
+
+                        <!-- Skill 9 -->
+                        <div class="skill clearfix">
+                          <h4>C/C++</h4>
+                          <div class="skill-value">75%</div>
+                        </div>
+                        <div class="skill-container skill-9">
+                          <div class="skill-percentage"></div>
+                        </div>
+                        <!-- End of Skill 9 -->
+                      </div>
+                      <!-- End of Coding Skills -->
+
+                      <div class="white-space-10"></div>
+
+                      <!-- Knowledges -->
+                      <div class="block-title">
+                        <h3>Knowledges</h3>
+                      </div>
+
+                      <ul class="knowledges">
+                        <li>Problem-Solving</li>
+                        <li>Marketing</li>                        
+                        <li>Digital Design</li>
+                        <li>Social Media</li>
+                        <li>Time Management</li>
+                        <li>Communication</li>                        
+                        <li>Social Networking</li>
+                        <li>Flexibility</li>
+                      </ul>
+                      <!-- End of Knowledges -->
+                    </div>
+                    <!-- End of Skills & Certificates -->
+                  </div>
+
+
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="section-content">  
+                  <div class="page-title">
+                    <h2>Portfolio</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_frontend">Front-end</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_backend">Back-End</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid three-columns">
+                          
+                          <figure class="item standard" data-groups='["category_all", "category_frontend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/1/1.png" alt="Media Project 1" title="" />
+                              <a href="portfolio-1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">MegaFlix</h4>
+                            <span class="category">FullStack</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_frontend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/2/1.png" alt="Media Project 2" title="" />
+                              <a href="portfolio-2.html" class="ajax-page-load"></a>
+                            </div>
+  
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">ShortUrl</h4>
+                            <span class="category">FullStack</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_frontend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/3/1.png" alt="Media Project 3" title="" />
+                              <a href="portfolio-3.html" class="ajax-page-load"></a>
+                            </div>
+  
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Tasty Eats</h4>
+                            <span class="category">Frontend</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_frontend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/4/1.png" alt="Media Project 4" title="" />
+                              <a href="portfolio-4.html" class="ajax-page-load"></a>
+                            </div>
+  
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">FS.Simplifier</h4>
+                            <span class="category">FullStack</span>
+                          </figure>
+                          
+                          <figure class="item standard" data-groups='["category_all", "category_frontend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/5/1.png" alt="Media Project 5" title="" />
+                              <a href="portfolio-5.html" class="ajax-page-load"></a>
+                            </div>
+  
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Training Room</h4>
+                            <span class="category">Frontend</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_backend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/6/1.png" alt="Media Project 6" title="" />
+                              <a href="portfolio-6.html" class="ajax-page-load"></a>
+                            </div>
+  
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Genzura</h4>
+                            <span class="category">Back-End</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_backend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/7/1.png" alt="Media Project 6" title="" />
+                              <a href="portfolio-7.html" class="ajax-page-load"></a>
+                            </div>
+  
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Smartfy</h4>
+                            <span class="category">Back-End</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_frontend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/8/1.png" alt="Media Project 5" title="" />
+                              <a href="portfolio-8.html" class="ajax-page-load"></a>
+                            </div>
+  
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">Typing Monster</h4>
+                            <span class="category">FullStack</span>
+                          </figure>
+
+                          <figure class="item standard" data-groups='["category_all", "category_frontend"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/9/1.png" alt="Media Project 9" title="" />
+                              <a href="portfolio-9.html" class="ajax-page-load"></a>
+                            </div>
+  
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name">RestoHub</h4>
+                            <span class="category">FullStack</span>
+                          </figure>
+
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+
+                     
+
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
+
+              <!-- Blog Subpage -->
+              <section data-id="blog" class="animated-section">
+                <div class="section-content">  
+                  <div class="page-title">
+                    <h2>Blog</h2>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="blog-masonry two-columns clearfix">
+                        
+                        <!-- Blog Post 1 -->
+                        <div class="item post-1">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in Design">Design</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_1.jpg" class="size-blog-masonry-image-two-c" alt="Why I Switched to Sketch For UI Design" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">05 Mar 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">Why I Switched to Sketch For UI Design</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 1 -->
+
+                        <!-- Blog Post 2 -->
+                        <div class="item post-2">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in UI">UI</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_2.jpg" class="size-blog-masonry-image-two-c" alt="Best Practices for Animated Progress Indicators" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">23 Feb 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">Best Practices for Animated Progress Indicators</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 2 -->
+
+                        <!-- Blog Post 3 -->
+                        <div class="item post-1">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in Design">Design</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_3.jpg" class="size-blog-masonry-image-two-c" alt="Designing the Perfect Feature Comparison Table" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">06 Feb 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">Designing the Perfect Feature Comparison Table</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 3 -->
+
+                        <!-- Blog Post 4 -->
+                        <div class="item post-2">
+                          <div class="blog-card">
+                            <div class="media-block">
+                              <div class="category">
+                                <a href="#" title="View all posts in E-Commerce">UI</a>
+                              </div>
+                              <a href="blog-post-1.html">
+                                <img src="img/blog/blog_post_4.jpg" class="size-blog-masonry-image-two-c" alt="An Overview of E-Commerce Platforms" title="" />
+                                <div class="mask"></div>
+                              </a>
+                            </div>
+                            <div class="post-info">
+                              <div class="post-date">07 Jan 2020</div>
+                              <a href="blog-post-1.html">
+                                <h4 class="blog-item-title">An Overview of E-Commerce Platforms</h4>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End of Blog Post 4 -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </section>
+              <!-- End of Blog Subpage -->
+
+              <!-- Contact Subpage -->
+              <section data-id="contact" class="animated-section">
+                <div class="section-content">  
+                  <div class="page-title">
+                    <h2>Contact</h2>
+                  </div>
+
+                  <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="lm-info-block gray-default">                        
+                        <h4>Rwanda</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-phone-handset"></i>
+                        <h4>+250791761286</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-envelope"></i>
+                        <h4>pacifiquemurangwa001@gmail.com</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+                      <div class="lm-info-block gray-default">
+                        <i class="lnr lnr-checkmark-circle"></i>
+                        <h4>Freelance Available</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+
+
+                    </div>
+                    <!-- End of Contact Info -->
+
+                    <!-- Contact Form -->
+                    <div class="col-xs-12 col-sm-8">                      
+                      <div class="block-title">
+                        <h3>How Can I <span>Help You?</span></h3>
+                      </div>
+
+                      <form method="post" action="https://forms.un-static.com/forms/363978f2e507f672f5179028b659d57c2794e4c5">
+                        <div class="form-group form-group-with-icon">
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                          <label>Email Address</label>
+                          <div class="form-control-border"></div>
+                          <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="right-column">
+                          <div class="form-group form-group-with-icon">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                            <label>Message</label>
+                            <div class="form-control-border"></div>
+                            <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                        
+                        <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>
+
+                        <input type="submit" class="button btn-send" value="Send message">
+                      </form>
+                    </div>
+                    <!-- End of Contact Form -->
+                  </div>
+
+                </div>
+              </section>
+              <!-- End of Contact Subpage -->
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
+
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src='js/perfect-scrollbar.min.js'></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
