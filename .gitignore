@@ -1,0 +1,11 @@
+*.html
+*.css
+*.ico
+*.js
+*.txt
+*.jpg
+*.png
+/css
+/js
+/img
+/fonts
